@@ -1,0 +1,20 @@
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Card Event */
+.card-img-overlay .card-text{
+    position: relative;
+    top: 38%;
+    bottom: 0;
+    text-align: right;
+}
+
+/* Card Attendee */
+.card a{
+    display: block;
+}
