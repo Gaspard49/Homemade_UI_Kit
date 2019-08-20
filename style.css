@@ -150,14 +150,120 @@
 
 
 /************************/
-/* 	    FORM            */
+/* 	    SHOW            */
 /************************/
+.show{
+    margin: 80px;
+    background-color: lightgray;
+    
+}
 
 
-/************************/
-/* 	    FORM            */
-/************************/
+.row{
+    background-color: white;
+    
+}
+.top{
+    height: 30rem;
+    font-size: 18px;
+    
+   
+}
 
+.right{
+    padding-left: 42px;
+    padding-top: 42px;
+    padding-right: 42px;
+    background-color: #F6F7F8;
+}
+
+.date{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.title{
+   
+   color: #024586;
+   font-size: 35px;
+}
+
+.author{
+    font-size: 15px;
+}
+
+.price{
+    padding-top:80px;
+    font-size: 20px;
+}
+
+
+
+.image
+{
+    background-image: url('Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+
+.box{
+    line-height: 57px;
+    height: 50px;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.subscribe{
+    float: right;
+    margin-top: 6px;
+    margin-right: 50px;
+    height: 40px;
+    font-size: 18px;
+    
+}
+
+.icon{
+    
+    font-size: 25px;
+}
+
+.icon2{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+
+.link{
+    padding-left: 10px;
+    color: grey;
+    
+}
+
+.like{
+    padding-left: 10px;
+    color: grey;
+}
+
+
+.text{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.bottom{
+    font-size: 14px;
+    padding-left: 42px;
+    padding-top: 40px;
+}
+/************************/
+/* 	    PRESENTATION    */
+/************************/
+.presentation{
+    margin: 150px;
+}
 
 /************************/
 /* 	    FORM            */
