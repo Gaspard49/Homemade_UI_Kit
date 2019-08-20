@@ -19,6 +19,9 @@
     display: block;
 }
 
+small{
+    color: #777;
+}
 
 .banner {
   background-image: url('Banner.jpg');
@@ -35,7 +38,7 @@
   font-size: 230px;
   font-weight: bold;
   font-family: 'Anton', sans-serif;
-  white-space: nowrap; /* Keeps the content on a single line */
+   /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   margin-top: 8%;
   letter-spacing: .30em; /* Adjust as needed */
