@@ -1,3 +1,19 @@
+/************************/
+/* 	    INDEX           */
+/************************/
+#jumbotronindex {
+    text-align: center;
+}
+
+
+
+
+
+/************************/
+/*    Cards             */
+/************************/
+
+
 
 .container-card{
     display: flex;
@@ -19,9 +35,9 @@
     display: block;
 }
 
-small{
-    color: #777;
-}
+/************************/
+/*    BANNER            */
+/************************/
 
 .banner {
   background-image: url('Banner.jpg');
@@ -35,7 +51,8 @@ small{
   color : rgb(255,255,255); /* color of the letters */
   text-align: center;/* put the letters at the center of the banner */
   text-transform: uppercase;
-  font-size: 230px;
+  font-size: 14vw;
+  padding-left: 20px;
   font-weight: bold;
   font-family: 'Anton', sans-serif;
    /* Keeps the content on a single line */
@@ -58,6 +75,12 @@ small{
   from, to { border-color: transparent }
   50% { border-color: rgb(255, 255, 255); }
 }
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
 
 .form{
     width: 35rem;
@@ -112,6 +135,42 @@ small{
 
 }
 
-#jumbotronindex {
-    text-align: center;
+.time{
+    margin-left: 23px;
+
 }
+
+.date{
+
+    width: 16rem;
+    float: left;
+
+}
+
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
