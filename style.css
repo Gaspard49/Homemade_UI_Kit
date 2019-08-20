@@ -1,7 +1,85 @@
+/************************/
+/* 	    INDEX           */
+/************************/
+#jumbotronindex {
+    text-align: center;
+}
+
+
+
+
+
+/************************/
+/*    Cards             */
+/************************/
+
+
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Card Event */
+.card-img-overlay .card-text{
+    position: relative;
+    top: 38%;
+    bottom: 0;
+    text-align: right;
+}
+
+/* Card Attendee */
+.card a{
+    display: block;
+}
+
+/************************/
+/*    BANNER            */
+/************************/
+
+.banner {
+  background-image: url('Banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .0em solid rgb(255, 255, 255); /* The typwriter cursor */
+  color : rgb(255,255,255); /* color of the letters */
+  text-align: center;/* put the letters at the center of the banner */
+  text-transform: uppercase;
+  font-size: 230px;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-top: 8%;
+  letter-spacing: .30em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .0s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
 
 /************************/
 /* 	    FORM            */
 /************************/
+
 
 .form{
     width: 35rem;
@@ -95,6 +173,3 @@
 /************************/
 
 
-/************************/
-/* 	    FORM            */
-/************************/
