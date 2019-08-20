@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-image: url('Banner.jpg');
   background-size: cover;
@@ -33,3 +34,91 @@ body {
   from, to { border-color: transparent }
   50% { border-color: rgb(255, 255, 255); }
 }
+=======
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+.form{
+    width: 35rem;
+    margin-left: 25rem;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #E9ECEF;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    -moz-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+}
+
+.form-h1{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.names{
+
+    width: 15rem;
+    float: left;
+
+}
+
+.last-name{
+    margin-left: 38px;
+}
+
+#emailHelp{
+    padding-left: 15px;
+}
+
+.check{
+    padding-top: 20px;
+}
+
+.switch{
+    margin-top: 2rem;
+    margin-left: 26rem;
+}
+
+.small-text{
+    font-size: 10pt;
+
+}
+
+.center{
+    margin-top: 25px;
+
+}
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+
+
+/************************/
+/* 	    FORM            */
+/************************/
+>>>>>>> 3cb8e0d4c39bbe326a2ed466a3bbfeb7169b1fb5
