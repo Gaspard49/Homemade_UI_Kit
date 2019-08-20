@@ -11,15 +11,12 @@
 /*      small_banner    */
 /************************/
 
-.jumbotron{
-    background-image: url('https://picsum.photos/1080/700');
+.small-banner{
+    background-image: url('https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.jumbotron .small-banner{
-    color: black;
+    color: rgba(0,0,0,0.67);
 }
 
 
