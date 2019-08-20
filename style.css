@@ -1,0 +1,49 @@
+
+
+.form{
+    width: 35rem;
+    margin-left: 25rem;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #E9ECEF;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    -moz-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+}
+
+.form-h1{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.names{
+
+    width: 15rem;
+    float: left;
+
+}
+
+.last-name{
+    margin-left: 38px;
+}
+
+#emailHelp{
+    padding-left: 15px;
+}
+
+.check{
+    padding-top: 20px;
+}
+
+.switch{
+    margin-top: 2rem;
+    margin-left: 26rem;
+}
+
+.small-text{
+    font-size: 10pt;
+
+}
