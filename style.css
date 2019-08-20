@@ -1,8 +1,14 @@
+
+
 /************************/
 /* 	    INDEX           */
 /************************/
 #jumbotronindex {
     text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: Montserrat;
 }
 
 
@@ -16,8 +22,9 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgba(0,0,0,0.67);
+    color: whitesmoke;
 }
+
 
 
 /************************/
