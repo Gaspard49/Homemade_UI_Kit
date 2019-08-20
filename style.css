@@ -18,3 +18,93 @@
 .card a{
     display: block;
 }
+
+
+.banner {
+  background-image: url('Banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .0em solid rgb(255, 255, 255); /* The typwriter cursor */
+  color : rgb(255,255,255); /* color of the letters */
+  text-align: center;/* put the letters at the center of the banner */
+  text-transform: uppercase;
+  font-size: 230px;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-top: 8%;
+  letter-spacing: .30em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .0s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+.form{
+    width: 35rem;
+    margin-left: 25rem;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #E9ECEF;
+    border-radius: 5px;
+    -webkit-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    -moz-box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+    box-shadow: 9px 11px 18px -9px rgba(0,0,0,0.67);
+}
+
+.form-h1{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.names{
+
+    width: 15rem;
+    float: left;
+
+}
+
+.last-name{
+    margin-left: 38px;
+}
+
+#emailHelp{
+    padding-left: 15px;
+}
+
+.check{
+    padding-top: 20px;
+}
+
+.switch{
+    margin-top: 2rem;
+    margin-left: 26rem;
+}
+
+.small-text{
+    font-size: 10pt;
+
+}
+
+.center{
+    margin-top: 25px;
+
+}
