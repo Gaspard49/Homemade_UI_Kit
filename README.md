@@ -4,4 +4,6 @@
 
 **Bootswatch**
 
+To use, open index.html and lauch a live server.
+
 * https://bootswatch.com/cerulean/
